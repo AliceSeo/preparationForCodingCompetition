@@ -1,3 +1,5 @@
+# Basic way to get one or multiple lines of input. Always required to solve questions for coding competitions
+
 # Must include sys module to read inputs automatically
 import sys
 
