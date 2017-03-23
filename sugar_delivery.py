@@ -1,4 +1,5 @@
 # Title: ŠEĆER
+# Retrieved from Croatian Open Competition in Informatics > COCI 2010/2011 > Contest #7
 # Q.
 # Mirko works in a sugar factory as a delivery boy. He has just received an order: he has to deliver exactly N kilograms
 # of sugar to a candy store on the Adriatic coast. Mirko can use two types of packages, the ones that contain 3 kilograms,
