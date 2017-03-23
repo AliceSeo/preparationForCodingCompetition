@@ -15,7 +15,7 @@ while True:
 		break
 	# do some modification or process in here
 	
-# Example:
+# Example 1:
 # Q. The input is given. The input consists of maximum 100 lines containing only smaller cases, capitals, spaces and numbers
 # Each line does not exceed 100 characters and empty line will not be given.
 # Also, each line does not start with space nor finish with space.
@@ -36,3 +36,23 @@ while True:
 		break #So, escape from while loop and done
 	print(line) #Otherwise, print the line out
 	
+	
+	
+# Example 2:
+# Q. The input is given in 2 lines. Find A + B and print it 
+# where A is the number given in the first line and B is the number given in the second line
+# Input Example:
+# 1
+# 2
+# Expected output:
+# 3
+
+# A.
+import sys
+number_of_lines_processed = 0
+result = 0
+while number_of_lines_processed < 2:
+    line = sys.stdin.readline().rstrip("\n")
+    result += int(line)
+    number_of_lines_processed += 1
+print (result)
