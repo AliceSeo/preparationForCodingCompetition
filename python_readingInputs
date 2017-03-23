@@ -10,7 +10,7 @@ user_input = sys.stdin.readline()
 # 2
 # To read multiple lines from the user, need to iterate through while loop
 while True:
-	line = sys.stdin.readline.rstrip("\n") #rstrip with token "\n" This splits string from user with delimeter, "\n"
+	line = sys.stdin.readline().rstrip("\n") #rstrip with token "\n" This splits string from user with delimeter, "\n"
 	if line == "":
 		break
 	# do some modification or process in here
@@ -23,7 +23,7 @@ while True:
 
 # A.
 while True:
-	line = sys.stdin.readline.rstrip("\n")
+	line = sys.stdin.readline().rstrip("\n")
 	if line == "":
 		break
 	print(line)
