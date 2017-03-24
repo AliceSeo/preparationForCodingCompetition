@@ -17,6 +17,20 @@ print("Name:{}, Age:{}, School:{}, Genger:{}".format(name, age, school, gender))
 # as the output
 # by using this, we can print out large size data in a particular given format
 
+# We can also put numbers in those curly braces to give the right order
+# For example:
+name = "Alice"
+age = 20
+school = "University of New Zealand"
+gender = "F"
+print("Name:{3}, Age:{2}, School:{1}, Genger:{0}".format(name, age, school, gender))
+# will give
+>> Name:F, Age:University of New Zealand, School:20, Genger:Alice
+# as the output
+# You can see those numbers inside curly braces are index of elements inside format()
+# Since index 0 is name, 1 is age, 2 is school and 3 is gender,
+# it produceds weird output
+
 # Also, sometimes, it is not allowed to use print() in coding competition 
 # In that case, we can use sys.stdout.write()
 # Note this does not contain new line character at the end unlike print(). So, we need to mannually add it like this:
