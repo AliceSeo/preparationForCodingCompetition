@@ -31,6 +31,7 @@
 # 55.556%
 
 # A.
+
 import sys
 
 def findAverage(string_list):
@@ -59,7 +60,7 @@ for i in range(number_of_inputs):
     for score in score_list:
         if score > average:
             number_of_students_above_average += 1
-    percentage = number_of_students_above_average / len(score_list) * 100
+    percentage = round(number_of_students_above_average / len(score_list) * 100, 3)
     result = printFormat(percentage)
     sys.stdout.write(result)
     sys.stdout.write("%\n")
