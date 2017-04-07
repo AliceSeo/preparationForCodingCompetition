@@ -1,5 +1,6 @@
-# Title: 
-# Retrieved from 
+# Title: Dial
+# Retrieved from Contest > Croatian Open Competition in Informatics > COCI 2012/2013 > Contest #6 #1
+# http://hsin.hr/coci/archive/2012_2013/contest6_tasks.pdf
 
 # Q: 
 # Mirko's grandma still uses an ancient pulse dial telephone with a rotary dial.
